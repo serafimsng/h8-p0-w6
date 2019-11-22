@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Tugas Anchor DOM!</title>
+    <link rel="stylesheet" type="text/css" href="registrasi.css">
+  </head>
+  <body>
+    <div>
+         <main id="box" style="text-align: center;">
+            <div>
+                <h2>Registration Form</h2>
+                <form name="registration" onSubmit="return validasi();">
+                    <h6>Username</h6>
+                    <input id="uname" type="text" name='uname' placeholder="Enter Your Username" name="Username">
+                    <h6>Password</h6>
+                    <input id="pass" type="password" name='pass' placeholder="Enter Your password" name="pass">
+                    <h6>Confirm Password</h6>
+                    <input id="passCon" type="password" name='passCon' placeholder="Confirm Your password" name="passCon">
+                    <h6>Email</h6>
+                    <input id="email" type="email" name='email' placeholder="Enter Your Email" name="Email">
+                    <h6>Confirm Email</h6>
+                    <input id="emailCon" type="email" name='emailCon' placeholder="Confirm Your Email" name="emailCon">
+                    <br>
+                    <input id="submit" name="submit" type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
